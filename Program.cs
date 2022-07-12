@@ -23,9 +23,7 @@ namespace _3_1_25
                 if (elems[i] < 0)
                     elems[i] = i;                
             }
-
-            for (int i = 0; i < elems.Length; i++)
-                Console.WriteLine($" i = {i}, {elems[i]}");
+            Console.WriteLine("[{0}]", string.Join(", ", elems));
             
             Console.ReadKey();
         }
